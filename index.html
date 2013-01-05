@@ -1,0 +1,74 @@
+<html>
+	<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+    <div id="wrapper">
+      <div class='content'>
+		    <div class="column">
+          <canvas id='canvas' width=400 height=400></canvas>
+          <!-- <div id="progressbar">
+            <div id='progress'></div>
+            </div> -->
+        </div> 
+        <div class="column">
+          <div class='input-line'>
+            <span>Grid size</span>
+            <input type="text" id="grid_size" value="10"/>
+          </div>
+          <div class='input-line'>
+            <span>Vertices</span>
+            <span id="vertices">0</span>
+          </div>
+          <div class='input-line'>
+            <span>Perimeter</span>
+            <span id="perimeter">0</span>
+          </div>
+          <div class='input-line'>
+            <span>Algorithm output</span>
+            <span id="algo_perimeter">0</span>
+          </div>
+          <div class='input-line'>
+            <span>Grid</span>
+            <input type="checkbox" id="grid" checked />
+          </div>
+          <div class='input-line'>
+            <span>Shape</span>
+            <input type="checkbox" id="shape" checked/>
+          </div>
+          <div class='input-line'>
+            <span>Fill</span>
+            <input type="checkbox" id="fill" checked/>
+          </div>
+          <div class='input-line'>
+            <span>Border</span>
+            <input type="checkbox" id="border" checked/>
+          </div>
+          <div class='input-line'>
+            <span>Recalculate</span>
+            <input type="checkbox" id="recalculate" checked/>
+          </div>
+          
+          <!--<div class='input-line'>
+            <span>Scale</span>
+            <input id='scale' value="0.03"/>
+          </div>
+          <div class='input-line'>
+            <span>Occuracy</span>
+            <input id='occuracy' value="0.00001"/>
+          </div>-->
+          <div class="controls">
+            <button id='undo'>Undo</button>
+            <button id='clear'>Clear</button>
+          </div>
+          <!-- <div class="controls">
+            <button id='save'>Save</button>
+            <button id='load'>Load</button>
+          </div> -->
+          <!--<div id='colors'></div> -->
+        </div>
+      </div>
+    </div>
+	</body>
+</html>
